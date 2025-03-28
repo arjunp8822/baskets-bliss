@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Grand Celebration Basket",
+    "description": "A classic mix of champagne, gourmet snacks, and festive treats, perfect for any special occasion.",
+    "price": 90,
+    "image": "/images/grand-celebration-basket.jpg",
+    "category": "Celebration Baskets"
+  },
+  {
+    "id": 2,
+    "name": "Ultimate Relaxation Basket",
+    "description": "Includes scented candles, bath salts, herbal teas, and a cozy blanket to help you unwind.",
+    "price": 75,
+    "image": "/images/ultimate-relaxation-basket.jpg",
+    "category": "Relaxation Baskets"
+  },
+  {
+    "id": 3,
+    "name": "Gourmet Feast Basket",
+    "description": "Packed with artisanal cheeses, cured meats, fine wine, and gourmet crackers for a top-tier tasting experience.",
+    "price": 100,
+    "image": "/images/gourmet-feast-basket.jpg",
+    "category": "Gourmet Food Baskets"
+  },
+  {
+    "id": 4,
+    "name": "Chocolate Indulgence Basket",
+    "description": "A rich selection of dark, milk, and white chocolates, along with chocolate-covered nuts and cocoa mixes.",
+    "price": 70,
+    "image": "/images/chocolate-indulgence-basket.jpg",
+    "category": "Chocolate Baskets"
+  },
+  {
+    "id": 5,
+    "name": "Coffee Essentials Crate",
+    "description": "Features premium coffee beans, a high-quality French press, and gourmet biscuits for the perfect brew.",
+    "price": 65,
+    "image": "/images/coffee-essentials-crate.jpg",
+    "category": "Coffee Baskets"
+  }
+]

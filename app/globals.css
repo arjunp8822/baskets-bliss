@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --primary: #6e008d;
+  --secondary: #ead6ff;
+}
+
+* {
+  @apply tracking-wider font-light;
+}
+
+.btn {
+  @apply px-4 py-2 w-fit;
+}
+
+.container {
+  @apply px-3 md:px-8 py-8 mt-16 mx-auto max-w-[1400px];
+}
+
+.heading {
+  @apply text-[20px] md:text-[28px];
+}
+
+.sub-heading {
+  @apply text-[14px] md:text-[18px] text-gray-600;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For webkit-based browsers (Chrome, Safari) */
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Edge */
+}
