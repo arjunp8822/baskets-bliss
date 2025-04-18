@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="px-3 md:px-8 py-8 mt-16 bg-[var(--secondary)] min-h-[200px] flex flex-col justify-center items-center gap-8 text-sm">
-      <ul className="flex flex-col md:flex-col gap-3 md:gap-16 justify-center items-center">
+      <ul className="flex flex-col md:flex-row gap-3 md:gap-8 justify-center items-center">
         <li className="hover:underline transition-all cursor-pointer">
           Terms and Conditions
         </li>

@@ -11,6 +11,17 @@ const Range = () => {
   const [isAtStart, setIsAtStart] = useState(true); // State to track if we're at the start
   const [isAtEnd, setIsAtEnd] = useState(false); // State to track if we're at the end
 
+  // cover - 45
+  // grand celebration - 45
+  // pet - 96
+  // fruit basket - 99
+  // relaxation - 153
+  // remove feast
+  // chocolate - 45
+  // remove coffee
+
+  // email - info@basketsbliss.com
+
   useEffect(() => {
     // Check if the container is overflowing
     const checkOverflow = () => {
@@ -68,9 +79,11 @@ const Range = () => {
           ref={containerRef}
           className="flex gap-4 justify-start items-center overflow-x-auto w-full hide-scrollbar snap-x snap-mandatory"
         >
-          {products.map((product) => (
-            <ProductCard product={product} key={product.id} />
-          ))}
+          {products
+            .filter((product) => product.enabled)
+            .map((product) => (
+              <ProductCard product={product} key={product.id} />
+            ))}
         </ul>
 
         {isOverflowing && (

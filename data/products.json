@@ -4,39 +4,71 @@
     "name": "Grand Celebration Basket",
     "description": "A classic mix of champagne, gourmet snacks, and festive treats, perfect for any special occasion.",
     "price": 90,
-    "image": "/images/grand-celebration-basket.jpg",
-    "category": "Celebration Baskets"
+    "image": "/product/celebration.jpg",
+    "category": "Celebration Baskets",
+    "enabled": true
   },
   {
     "id": 2,
     "name": "Ultimate Relaxation Basket",
     "description": "Includes scented candles, bath salts, herbal teas, and a cozy blanket to help you unwind.",
     "price": 75,
-    "image": "/images/ultimate-relaxation-basket.jpg",
-    "category": "Relaxation Baskets"
+    "image": "/product/cover.jpg",
+    "category": "Relaxation Baskets",
+    "enabled": true
   },
   {
     "id": 3,
     "name": "Gourmet Feast Basket",
     "description": "Packed with artisanal cheeses, cured meats, fine wine, and gourmet crackers for a top-tier tasting experience.",
     "price": 100,
-    "image": "/images/gourmet-feast-basket.jpg",
-    "category": "Gourmet Food Baskets"
+    "image": "/product/gourmet-feast-basket.jpg",
+    "category": "Gourmet Food Baskets",
+    "enabled": false
   },
   {
     "id": 4,
     "name": "Chocolate Indulgence Basket",
     "description": "A rich selection of dark, milk, and white chocolates, along with chocolate-covered nuts and cocoa mixes.",
     "price": 70,
-    "image": "/images/chocolate-indulgence-basket.jpg",
-    "category": "Chocolate Baskets"
+    "image": "/product/chocolate.jpg",
+    "category": "Chocolate Baskets",
+    "enabled": true
   },
   {
     "id": 5,
     "name": "Coffee Essentials Crate",
     "description": "Features premium coffee beans, a high-quality French press, and gourmet biscuits for the perfect brew.",
     "price": 65,
-    "image": "/images/coffee-essentials-crate.jpg",
-    "category": "Coffee Baskets"
+    "image": "/product/coffee-essentials-crate.jpg",
+    "category": "Coffee Baskets",
+    "enabled": false
+  },
+  {
+    "id": 6,
+    "name": "Pampered Paws Basket",
+    "description": "A delightful treat set for your furry friend featuring gourmet pet treats, toys, and grooming essentials.",
+    "price": 50,
+    "image": "/product/pet.jpg",
+    "category": "Pet Baskets",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "name": "Fresh Fruit Delight",
+    "description": "A healthy and colorful mix of seasonal fruits including apples, oranges, berries, and grapes.",
+    "price": 55,
+    "image": "/product/fruit.jpg",
+    "category": "Fruit Baskets",
+    "enabled": true
+  },
+  {
+    "id": 8,
+    "name": "Baby Joy Basket",
+    "description": "Filled with soft toys, baby lotion, gentle bath products, a cozy blanket, and a cute onesie—perfect for welcoming a newborn.",
+    "price": 60,
+    "image": "/product/baby.jpg",
+    "category": "Baby Baskets",
+    "enabled": true
   }
 ]

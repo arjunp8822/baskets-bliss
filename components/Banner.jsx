@@ -9,8 +9,8 @@ const Banner = () => {
     }
   };
   return (
-    <div className="flex flex-col-reverse md:flex-row h-[calc(100vh-110px)] md:h-[40vw] w-full gap-4 md:gap-0 mx-auto max-w-[1400px]">
-      <div className="w-full md:w-[45%] flex flex-col gap-2 md:gap-4 justify-center px-4 md:px-8 h-[50%] md:h-full">
+    <div className="flex flex-col-reverse md:flex-row h-[calc(100vh-110px)] md:h-[35vw] w-full gap-4 md:gap-0 mx-auto max-w-[1400px]">
+      <div className="w-full md:w-[45%] flex flex-col gap-2 md:gap-4 justify-center px-3 md:px-8 h-[50%] md:h-full">
         <h1 className="text-[28px] md:text-[34px] lg:text-[40px]">
           Baskets for every blissful moment
         </h1>
@@ -26,8 +26,12 @@ const Banner = () => {
           Explore the range
         </button>
       </div>
-      <div className="bg-gray-100 w-full md:w-[55%] flex items-center justify-center h-[50%] md:h-full">
-        {/* Add an image here */}
+      <div className="bg-red-100 w-full md:w-[55%] flex items-center justify-center h-[50%] md:h-full">
+        <img
+          src="/product/cover3.jpg"
+          alt="Baskets Bliss cover photo"
+          className="w-full h-full object-cover"
+        />
       </div>
     </div>
   );
