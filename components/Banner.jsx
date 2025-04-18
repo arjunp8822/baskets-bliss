@@ -26,7 +26,7 @@ const Banner = () => {
           Explore the range
         </button>
       </div>
-      <div className="bg-red-100 w-full md:w-[55%] flex items-center justify-center h-[50%] md:h-full">
+      <div className="bg-gray-100 w-full md:w-[55%] flex items-center justify-center h-[50%] md:h-full">
         <img
           src="/product/cover3.jpg"
           alt="Baskets Bliss cover photo"
