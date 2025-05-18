@@ -70,5 +70,41 @@
     "image": "/product/baby.jpg",
     "category": "Baby Baskets",
     "enabled": true
+  },
+  {
+    "id": 9,
+    "name": "Aussie Delight Hamper",
+    "description": "A taste of Australia featuring Tim Tams, Vegemite, Australian art, and local honey products.",
+    "price": 85,
+    "image": "/product/aussie_delight.jpg",
+    "category": "Aussie Treat",
+    "enabled": true
+  },
+  {
+    "id": 10,
+    "name": "Festive Season Magic Box",
+    "description": "Festive treats including gingerbread, mulled wine spices,  cookies, and holiday decorations.",
+    "price": 95,
+    "image": "/product/christmas_magic.jpg",
+    "category": "Festive Season",
+    "enabled": true
+  },
+  {
+    "id": 11,
+    "name": "Corporate Gift Set (10 units)",
+    "description": "Premium gift boxes perfect for corporate gifting, featuring gourmet snacks and luxury items.",
+    "price": 450,
+    "image": "/product/corporate.jpg",
+    "category": "Bulk Gifting",
+    "enabled": true
+  },
+  {
+    "id": 12,
+    "name": "Surprise Box",
+    "description": "Infused with unexpected delights and bring genuine smiles to your loved ones.",
+    "price": 80,
+    "image": "/product/mix.jpg",
+    "category": "Assorted",
+    "enabled": true
   }
 ]
